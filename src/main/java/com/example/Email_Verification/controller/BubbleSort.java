@@ -28,6 +28,6 @@ public class BubbleSort {
 
         sorter.bubbleSort(arr); // Sort the array using bubble sort
 
-        System.out.println("Sorted Array: " + Arrays.toString(arr)); // Print the sorted array
+        System.out.println("Sorted Array: " + Arrays.toString(arr)); // print the sorted array
     }
 }
