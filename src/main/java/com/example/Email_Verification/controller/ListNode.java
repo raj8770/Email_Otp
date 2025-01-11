@@ -13,6 +13,7 @@ class ListNode {
             ListNode next = head.next;
             head.next = prev;
             prev = head;
+
             head = next;
         }
         return prev;
@@ -34,6 +35,7 @@ class ListNode {
         printList(head);
     }
 
+
     private static void printList(ListNode head) {
         while (head != null) {
             System.out.print(head.val + " -> ");
@@ -41,4 +43,5 @@ class ListNode {
         }
         System.out.println("null");
     }
+
 }
