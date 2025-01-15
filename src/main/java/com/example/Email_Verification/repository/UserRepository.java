@@ -12,8 +12,4 @@ public interface UserRepository extends JpaRepository<User,Long> {
     Optional<User> findById(Long  Id);
 
 
-    @Query(value = "SELECT MAX(Salary) FROM Employee WHERE Salary < (SELECT MAX(Salary) FROM Employee)", nativeQuery = true)
-    Double findSecondHighestSalary();
-
-
 }
