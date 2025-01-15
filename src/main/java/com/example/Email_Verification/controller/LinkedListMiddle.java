@@ -31,6 +31,5 @@ public class LinkedListMiddle {
         System.out.println("The middle node value is: " + middle.val);
     }
 
-
 }
 
