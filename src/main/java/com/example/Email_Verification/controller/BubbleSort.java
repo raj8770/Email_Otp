@@ -31,3 +31,5 @@ public class BubbleSort {
         System.out.println("Sorted Array: " + Arrays.toString(arr)); // print the sorted array
     }
 }
+
+
